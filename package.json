@@ -4,16 +4,22 @@
   "description": "An Online BookStore",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.15.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
